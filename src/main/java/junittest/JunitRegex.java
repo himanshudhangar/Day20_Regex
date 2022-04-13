@@ -15,6 +15,18 @@ public boolean firstName(String testString) {
 	
 	
 	}
+public void ValideLastName() {
+
+	String line="HIManshu";
+	   String pattern= "[A-Z]{3}[a-z]+";
+	   Pattern pat= Pattern.compile(pattern);
+	   Matcher matcher=pat.matcher(line);
+	   if(matcher.matches()) {
+		   System.out.println("Pattern matches");
+	   }else {
+		   System.out.println("No Match");
+	   }
+}
 }
 
 
