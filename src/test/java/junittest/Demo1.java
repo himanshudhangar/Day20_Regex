@@ -13,12 +13,16 @@ JunitRegex t=new JunitRegex();
 			       	assertEquals(result1,true);	
 	}
 			 public void ValideLastName() {
-			      	boolean result1=t.firstName("Himanshu");
-			       	assertEquals(result1,true);		 
+			      	boolean result2=t.firstName("Dhnagar");
+			       	assertEquals(result2,true);		 
 }
 			 public void ValideEmail() {
-			      	boolean result1=t.firstName("Himanshu");
-			       	assertEquals(result1,true);	
+			      	boolean result3=t.firstName("himanshu12@gnail.com");
+			       	assertEquals(result3,true);	
+}
+			 public void MobileFormatl() {
+			      	boolean result4=t.firstName("91 8551934902");
+			       	assertEquals(result4,true);		 
 }
 }
 			

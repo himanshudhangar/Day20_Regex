@@ -17,8 +17,8 @@ public boolean firstName(String testString) {
 	}
 public void ValideLastName() {
 
-	String line="HIManshu";
-	   String pattern= "[A-Z]{3}[a-z]+";
+	String line="Dhangar";
+	   String pattern= "[A-Z]{1}[a-z]+";
 	   Pattern pat= Pattern.compile(pattern);
 	   Matcher matcher=pat.matcher(line);
 	   if(matcher.matches()) {
@@ -38,7 +38,18 @@ public void ValideEmail() {
 		   System.out.println("No Match");
 	   }
 }
-	   
+public void  MobileFormat(){
+	
+	String line="91 8551934902";
+	   String pattern= "[0-9]{2} [89]{1}[0-9]{9}";
+	   Pattern pat= Pattern.compile(pattern);
+	   Matcher matcher=pat.matcher(line);
+	   if(matcher.matches()) {
+		   System.out.println("Pattern matches");
+	   }else {
+		   System.out.println("No Match");
+	   } 
+}   
 }
 
 
