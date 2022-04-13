@@ -24,5 +24,9 @@ JunitRegex t=new JunitRegex();
 			      	boolean result4=t.firstName("91 8551934902");
 			       	assertEquals(result4,true);		 
 }
+			 public void Rule1() {
+			      	boolean result5=t.firstName("Rcpit@123");
+			       	assertEquals(result5,true);		
+}
 }
 			

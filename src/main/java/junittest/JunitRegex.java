@@ -49,7 +49,21 @@ public void  MobileFormat(){
 	   }else {
 		   System.out.println("No Match");
 	   } 
-}   
+} 
+public void Rule1 (){
+	
+	String line="Rcpit@123";
+	   String pattern= "[A-Z]{1}[a-z]+[@][0-9]{3}";
+	   Pattern pat= Pattern.compile(pattern);
+	   Matcher matcher=pat.matcher(line);
+	   if(matcher.matches()) {
+		   System.out.println("Pattern matches");
+	   }else {
+		   System.out.println("No Match");
+	   }
+}
+
+
 }
 
 
