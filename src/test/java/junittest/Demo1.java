@@ -17,7 +17,7 @@ JunitRegex t=new JunitRegex();
 			       	assertEquals(result1,true);		 
 }
 			 public void ValideEmail() {
-			      	boolean result1=t.firstName("Himanshu");
+			      	boolean result1=t.Emailid("himanshu12@gmail.com");
 			       	assertEquals(result1,true);	
 }
 }
