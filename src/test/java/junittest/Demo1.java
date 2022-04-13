@@ -33,7 +33,7 @@ JunitRegex t=new JunitRegex();
 			       	assertEquals(result6,true);	
 }
 			 public void UseNumeric() {
-			      	boolean result7=t.firstName("");
+			      	boolean result7=t.firstName("rcp12");
 			       	assertEquals(result7,true);	
 }
 }
