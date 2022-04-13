@@ -14,11 +14,11 @@ JunitRegex t=new JunitRegex();
 	}
 			 public void ValideLastName() {
 			      	boolean result2=t.lastname("Dhangar");
-			       	assertEquals(result1,true);		 
+			       	assertEquals(result2,true);		 
 }
 			 public void ValideEmail() {
 			      	boolean result3=t.Emailid("himanshu12@gmail.com");
-			       	assertEquals(result1,true);	
+			       	assertEquals(result3,true);	
 }
 }
 			
