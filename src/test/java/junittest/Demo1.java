@@ -28,5 +28,8 @@ JunitRegex t=new JunitRegex();
 			      	boolean result5=t.firstName("Rcpit@123");
 			       	assertEquals(result5,true);		
 }
+			 public void Uppercase1() {
+			      	boolean result6=t.firstName("Abcd");
+			       	assertEquals(result6,true);	
 }
-			
+}

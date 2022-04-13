@@ -62,6 +62,18 @@ public void Rule1 (){
 		   System.out.println("No Match");
 	   }
 }
+public void Uppercase1 (){
+	
+	String line="Abcd";
+	   String pattern= "[A-Z]{1}[a-z]+";
+	   Pattern pat= Pattern.compile(pattern);
+	   Matcher matcher=pat.matcher(line);
+	   if(matcher.matches()) {
+		   System.out.println("Pattern matches");
+	   }else {
+		   System.out.println("No Match");
+	   }
+}
 
 
 }
