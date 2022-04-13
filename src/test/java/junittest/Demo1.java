@@ -36,4 +36,8 @@ JunitRegex t=new JunitRegex();
 			      	boolean result7=t.firstName("");
 			       	assertEquals(result7,true);	
 }
+			 public void SpecialKey() {
+			      	boolean result8=t.firstName("abc@");
+			       	assertEquals(result8,true);	
+}
 }

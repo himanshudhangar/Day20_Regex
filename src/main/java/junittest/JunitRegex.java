@@ -89,6 +89,18 @@ public void UseOneNumeric (){
 				   System.out.println("No Match");
 			   }
 }
+public void SpecialKey (){
+	
+	String line="abc@";
+	   String pattern= "[a-z]+[$]";
+	   Pattern pat= Pattern.compile(pattern);
+	   Matcher matcher=pat.matcher(line);
+	   if(matcher.matches()) {
+		   System.out.println("Pattern matches");
+	   }else {
+		   System.out.println("No Match");
+	   }
+}
 }
 
 
