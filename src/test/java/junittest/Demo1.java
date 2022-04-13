@@ -32,4 +32,8 @@ JunitRegex t=new JunitRegex();
 			      	boolean result6=t.firstName("Abcd");
 			       	assertEquals(result6,true);	
 }
+			 public void UseNumeric() {
+			      	boolean result7=t.firstName("");
+			       	assertEquals(result7,true);	
+}
 }

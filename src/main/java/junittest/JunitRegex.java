@@ -1,5 +1,7 @@
 package junittest;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -75,7 +77,18 @@ public void Uppercase1 (){
 	   }
 }
 
-
+public void UseOneNumeric (){
+		
+			String line="rcp12";
+			   String pattern= "[a-z]+[0-9][2]";
+			   Pattern pat= Pattern.compile(pattern);
+			   Matcher matcher=pat.matcher(line);
+			   if(matcher.matches()) {
+				   System.out.println("Pattern matches");
+			   }else {
+				   System.out.println("No Match");
+			   }
+}
 }
 
 
